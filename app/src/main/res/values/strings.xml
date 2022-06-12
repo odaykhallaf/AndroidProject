@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RestorantProject</string>
+    <string name="employees_page">Employees page</string>
+    <string name="moon_restorant">Moon Restorant</string>
+    <string name="employees_page2">Employees Page</string>
+    <string name="login">LogIn</string>
+    <string name="registare">Registare</string>
+</resources>

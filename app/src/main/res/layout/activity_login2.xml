@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgimg"
+    android:orientation="vertical"
+
+    tools:context=".Login">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="50pt">
+
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:text="oday"
+            android:textSize="20dp"
+            android:id="@+id/logedt1"
+            android:layout_margin="8dp"
+            android:textAlignment="center"
+
+            android:padding="5dp"
+            android:background="@color/bnf"
+            ></EditText>
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:id="@+id/logedt2"
+            android:text="12345"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:layout_margin="8dp"
+            android:padding="5dp"
+            android:background="@color/bnf"
+
+            ></EditText>
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:background="@drawable/btnbg"
+            android:id="@+id/logbt"
+            android:layout_marginTop="200dp"
+            android:text="login to OrderList"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+
+            ></Button>
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:background="@drawable/btnbg"
+            android:id="@+id/logbt2"
+            android:layout_marginTop="20dp"
+            android:text="login to Order Status"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:padding="5dp"
+
+            ></Button>
+    </LinearLayout>
+
+
+
+</LinearLayout>
